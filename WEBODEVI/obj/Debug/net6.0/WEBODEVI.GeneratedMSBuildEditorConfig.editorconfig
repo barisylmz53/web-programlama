@@ -9,41 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WEBODEVI
 build_property.RootNamespace = WEBODEVI
-build_property.ProjectDir = C:\Users\baris\Desktop\WEBODEVI\WEBODEVI\
+build_property.ProjectDir = C:\Users\baris\Documents\GitHub\web-programlama\WEBODEVI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\baris\Desktop\WEBODEVI\WEBODEVI
+build_property.MSBuildProjectDirectory = C:\Users\baris\Documents\GitHub\web-programlama\WEBODEVI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/About/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Admin/GirisYap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2lyaXNZYXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Home/About.cshtml]
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Home/Index.cshtml]
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Home/Cars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Shared/Error.cshtml]
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Home/Pricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmljaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Home/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/_ViewImports.cshtml]
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/_ViewStart.cshtml]
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Shared/_Layout.cshtml]
+[C:/Users/baris/Documents/GitHub/web-programlama/WEBODEVI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vj6kgvgilb

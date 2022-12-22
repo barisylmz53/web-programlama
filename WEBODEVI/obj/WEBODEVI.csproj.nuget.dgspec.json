@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baris\\Desktop\\WEBODEVI\\WEBODEVI\\WEBODEVI.csproj": {}
+    "C:\\Users\\baris\\Documents\\GitHub\\web-programlama\\WEBODEVI\\WEBODEVI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baris\\Desktop\\WEBODEVI\\WEBODEVI\\WEBODEVI.csproj": {
+    "C:\\Users\\baris\\Documents\\GitHub\\web-programlama\\WEBODEVI\\WEBODEVI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baris\\Desktop\\WEBODEVI\\WEBODEVI\\WEBODEVI.csproj",
+        "projectUniqueName": "C:\\Users\\baris\\Documents\\GitHub\\web-programlama\\WEBODEVI\\WEBODEVI.csproj",
         "projectName": "WEBODEVI",
-        "projectPath": "C:\\Users\\baris\\Desktop\\WEBODEVI\\WEBODEVI\\WEBODEVI.csproj",
+        "projectPath": "C:\\Users\\baris\\Documents\\GitHub\\web-programlama\\WEBODEVI\\WEBODEVI.csproj",
         "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baris\\Desktop\\WEBODEVI\\WEBODEVI\\obj\\",
+        "outputPath": "C:\\Users\\baris\\Documents\\GitHub\\web-programlama\\WEBODEVI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",

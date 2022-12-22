@@ -4,7 +4,7 @@ namespace WEBODEVI.Controllers
 {
     public class LoginController : Controller
     {
-        public IActionResult GirisYap()
+        public IActionResult Index()
         {
             return View();
         }

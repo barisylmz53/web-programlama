@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K0oMHRvDr5ZQDTuE29HVGHgOjk/9AzXgxZOPY46fdCUEDgolQobLEKmBt/CDpzlgDPkT9VXQa4bh10FQezwUMg==",
+  "dgSpecHash": "oM/W8vzN2pmT0cajnwlNeR+0KYOZj75JbsiJxK1DuTX4FHCJ2SPS7FC389TrgTR99nr7Vh8IEcpMR/fYL+CDBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\baris\\Desktop\\WEBODEVI\\WEBODEVI\\WEBODEVI.csproj",
+  "projectFilePath": "C:\\Users\\baris\\Documents\\GitHub\\web-programlama\\WEBODEVI\\WEBODEVI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\baris\\.nuget\\packages\\jquery\\3.6.1\\jquery.3.6.1.nupkg.sha512"
   ],
