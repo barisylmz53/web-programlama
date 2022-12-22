@@ -16,32 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\baris\Desktop\WEBODEVI\WEBODEVI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Admin/GirisYap.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2lyaXNZYXAuY3NodG1s
+[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Home/Cars.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Home/Pricing.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmljaW5nLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Home/Services.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Login/GirisYap.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cR2lyaXNZYXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/baris/Desktop/WEBODEVI/WEBODEVI/Views/Shared/Error.cshtml]

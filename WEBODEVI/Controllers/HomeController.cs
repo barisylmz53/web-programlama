@@ -23,21 +23,6 @@ namespace WEBODEVI.Controllers
             return View();
         }
 
-        public IActionResult Services()
-        {
-            return View();
-        }
-
-        public IActionResult Pricing()
-        {
-            return View();
-        }
-        public IActionResult Cars()
-        {
-            return View();
-        }
-
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
