@@ -4,7 +4,7 @@ namespace WEBODEVI.Models
 {
     public class Uye
     {
-        [Key]
+
         public int UyeID { get; set; }
         public string? UyeAd { get; set; }
         public string? UyeSoyad { get; set; }
