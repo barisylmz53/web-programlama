@@ -39,13 +39,12 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="/Home/Index" class="nav-link">Anasayfa</a></li>
-					<li class="nav-item"><a href="/Home/About" class="nav-link">Hakkımızda</a></li>
-					<li class="nav-item"><a href="/Home/Services" class="nav-link">Hizmetlerimiz</a></li>
-					<li class="nav-item"><a href="/Home/Pricing" class="nav-link">Fiyatlarımız</a></li>
-					<li class="nav-item"><a href="/Home/Cars" class="nav-link">Arabalarımız</a></li>
-					@*<li class="nav-item"><a href="/Register/Index" class="nav-link">Üye Ol</a></li>
-					<li class="nav-item"><a href="/Login/Index" class="nav-link">Giriş Yap</a></li>*@
+					<li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+					<li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">Hakkımızda</a></li>
+					<li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Services">Hizmetlerimiz</a></li>
+					<li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Pricing">Fiyatlarımız</a></li>
+					<li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Cars">Arabalarımız</a></li>
+					<li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Uyeler" asp-action="Index">Uyeler</a></li>
 					<partial name="_LoginPartial" />
 				</ul>
 			</div>

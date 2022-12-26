@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -29,15 +30,15 @@ namespace WEBODEVI
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
-			services.AddControllersWithViews();
+			// services.AddControllersWithViews();
             services.AddDbContext<ApplicationDbContext>(options =>
 			options.UseSqlServer(
 				Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-			
+            services.AddControllersWithViews();
 
-            
+
         }
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,7 +49,8 @@ namespace WEBODEVI
 			{
 
 				app.UseDeveloperExceptionPage();
-			}
+                
+            }
 			else
 			{
 				app.UseExceptionHandler("/Home/Error");
@@ -57,6 +59,7 @@ namespace WEBODEVI
 			}
 			
 			app.UseHttpsRedirection();
+
 			app.UseStaticFiles();
 
             //app.UseStaticFiles(new StaticFileOptions
@@ -64,10 +67,12 @@ namespace WEBODEVI
             //    RequestPath = "/prime/test/v1"
             //});
             //app.UsePathBase("/prime/test/v1");
-            
+
+            app.UseAuthentication();
             app.UseRouting();
 			app.UseAuthorization();
             
+
             app.UseEndpoints(endpoints =>
 			{
 				endpoints.MapControllerRoute(
@@ -75,6 +80,10 @@ namespace WEBODEVI
 					pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+		
+
 		}
-	}
+        
+    }
+    
 }
