@@ -1,4 +1,7 @@
-﻿<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('/../../images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+﻿@using WEBODEVI.Models;
+@model List<Cars>
+
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('/../../images/bg_3.jpg');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
@@ -26,10 +29,12 @@
 							</tr>
 						</thead>
 						<tbody>
+							@foreach (var item in Model)
+							 {
 							<tr class="">
-								<td class="car-image"><div class="img" style="background-image:url(/../../images/car-1.jpg);"></div></td>
+								<td class="car-image"><div class="img" style="background-image:url(/../../images/@item.CarPhoto);"></div></td>
 								<td class="product-name">
-									<h3>Mercedes-Benz Coupe</h3>
+									<h3>@item.CarBrand @item.CarModel</h3>
 									<p class="mb-0 rated">
 										<span>Oy:</span>
 										<span class="ion-ios-star"></span>
@@ -44,10 +49,10 @@
 									<p class="btn-custom"><a href="#">Rent a car</a></p>
 									<div class="price-rate">
 										<h3>
-											<span class="num"><small class="currency">$</small> 10.99</span>
+											<span class="num"><small class="currency">TL</small> @item.CarHourPrice</span>
 											<span class="per">/saatlik</span>
 										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
+										<span class="subheading">TL 30/saatlik yakıt ek ücreti</span>
 									</div>
 								</td>
 
@@ -55,10 +60,10 @@
 									<p class="btn-custom"><a href="#">Rent a car</a></p>
 									<div class="price-rate">
 										<h3>
-											<span class="num"><small class="currency">$</small> 60.99</span>
+											<span class="num"><small class="currency">TL</small> @item.CarDayPrice</span>
 											<span class="per">/günlük</span>
 										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
+										<span class="subheading">TL 30/saatlik yakıt ek ücreti</span>
 									</div>
 								</td>
 
@@ -66,255 +71,16 @@
 									<p class="btn-custom"><a href="#">Rent a car</a></p>
 									<div class="price-rate">
 										<h3>
-											<span class="num"><small class="currency">$</small> 995.99</span>
+											<span class="num"><small class="currency">TL</small> @item.CarMonthPrice</span>
 											<span class="per">/aylık</span>
 										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
+										<span class="subheading">TL 30/saatlik yakıt ek ücreti</span>
 									</div>
 								</td>
-							</tr><!-- END TR-->
+								
+							</tr>
+							}<!-- END TR-->
 
-							<tr class="">
-								<td class="car-image"><div class="img" style="background-image:url(/../../images/car-2.jpg);"></div></td>
-								<td class="product-name">
-									<h3>Range Rover SUV</h3>
-									<p class="mb-0 rated">
-										<span>Oy:</span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-									</p>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 10.99</span>
-											<span class="per">/saatlik</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 60.99</span>
-											<span class="per">/günlük</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 995.99</span>
-											<span class="per">/aylık</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-							</tr><!-- END TR-->
-
-							<tr class="">
-								<td class="car-image"><div class="img" style="background-image:url(/../../images/car-3.jpg);"></div></td>
-								<td class="product-name">
-									<h3>McLaren 720S</h3>
-									<p class="mb-0 rated">
-										<span>Oy:</span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-									</p>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 10.99</span>
-											<span class="per">/saatlik</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 60.99</span>
-											<span class="per">/günlük</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 995.99</span>
-											<span class="per">/aylık</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-							</tr><!-- END TR-->
-
-							<tr class="">
-								<td class="car-image"><div class="img" style="background-image:url(/../../images/car-4.jpg);"></div></td>
-								<td class="product-name">
-									<h3>Ford Mustang GT</h3>
-									<p class="mb-0 rated">
-										<span>Oy:</span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-									</p>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 10.99</span>
-											<span class="per">/saatlik</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 60.99</span>
-											<span class="per">/günlük</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 995.99</span>
-											<span class="per">/aylık</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-							</tr><!-- END TR-->
-
-
-							<tr class="">
-								<td class="car-image"><div class="img" style="background-image:url(/../../images/car-5.jpg);"></div></td>
-								<td class="product-name">
-									<h3>BMW 3 Serisi</h3>
-									<p class="mb-0 rated">
-										<span>Oy:</span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-									</p>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 10.99</span>
-											<span class="per">/saatlik</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 60.99</span>
-											<span class="per">/günlük</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 995.99</span>
-											<span class="per">/aylık</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-							</tr><!-- END TR-->
-
-
-							<tr class="">
-								<td class="car-image"><div class="img" style="background-image:url(/../../images/car-6.jpg);"></div></td>
-								<td class="product-name">
-									<h3>Alfa Romeo 4C</h3>
-									<p class="mb-0 rated">
-										<span>Oy:</span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-										<span class="ion-ios-star"></span>
-									</p>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 10.99</span>
-											<span class="per">/saatlik</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 60.99</span>
-											<span class="per">/günlük</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-
-								<td class="price">
-									<p class="btn-custom"><a href="#">Rent a car</a></p>
-									<div class="price-rate">
-										<h3>
-											<span class="num"><small class="currency">$</small> 995.99</span>
-											<span class="per">/aylık</span>
-										</h3>
-										<span class="subheading">$3/saatlik yakıt ek ücreti</span>
-									</div>
-								</td>
-							</tr><!-- END TR-->
 						</tbody>
 					</table>
 				</div>

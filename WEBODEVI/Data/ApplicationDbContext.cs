@@ -6,11 +6,10 @@ namespace WEBODEVI.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
         {
         }
-
-        public DbSet<Uye> Uyeler { get; set; }
+        public DbSet<WEBODEVI.Models.Cars> Cars { get; set; }
     }
 }
- 
