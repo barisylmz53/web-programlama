@@ -329,6 +329,10 @@
       "PackagePath": "staticwebassets\\images\\person_4.jpg"
     },
     {
+      "Id": "C:\\Users\\baris\\Documents\\GitHub\\web-programlama\\WEBODEVI\\wwwroot\\images\\unnamed.jpg",
+      "PackagePath": "staticwebassets\\images\\unnamed.jpg"
+    },
+    {
       "Id": "C:\\Users\\baris\\Documents\\GitHub\\web-programlama\\WEBODEVI\\wwwroot\\js\\.DS_Store",
       "PackagePath": "staticwebassets\\js\\.DS_Store"
     },

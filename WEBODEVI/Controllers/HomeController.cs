@@ -20,8 +20,8 @@ namespace WEBODEVI.Controllers
 
         public IActionResult Index()
         {
-            
-            return View();
+            List<Cars> cars2 = _context.Cars.ToList();
+            return View(cars2);
         }
        
         public IActionResult About()
