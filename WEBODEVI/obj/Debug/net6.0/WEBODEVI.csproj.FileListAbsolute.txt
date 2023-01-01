@@ -556,3 +556,5 @@ C:\Users\baris\Documents\GitHub\web-programlama\WEBODEVI\obj\Debug\net6.0\refint
 C:\Users\baris\Documents\GitHub\web-programlama\WEBODEVI\obj\Debug\net6.0\WEBODEVI.pdb
 C:\Users\baris\Documents\GitHub\web-programlama\WEBODEVI\obj\Debug\net6.0\WEBODEVI.genruntimeconfig.cache
 C:\Users\baris\Documents\GitHub\web-programlama\WEBODEVI\obj\Debug\net6.0\ref\WEBODEVI.dll
+C:\Users\baris\Documents\GitHub\web-programlama\WEBODEVI\obj\Debug\net6.0\WEBODEVI.csproj.GenerateResource.cache
+C:\Users\baris\Documents\GitHub\web-programlama\WEBODEVI\obj\Debug\net6.0\WEBODEVI.ResourceTR.resources
